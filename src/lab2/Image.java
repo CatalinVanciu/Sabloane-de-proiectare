@@ -31,4 +31,8 @@ public class Image {
 	public void print() {
 		
 	}
+	
+	public String toString() {
+		return imageName;
+	}
 }

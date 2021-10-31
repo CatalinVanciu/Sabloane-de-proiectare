@@ -31,4 +31,8 @@ public class Paragraph {
 	public void print() {
 		
 	}
+	
+	public String toString() {
+		return text;
+	}
 }

@@ -31,4 +31,8 @@ public class Table {
 	public void print() {
 		
 	}
+	
+	public String toString() {
+		return title;
+	}
 }
