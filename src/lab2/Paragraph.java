@@ -1,8 +1,7 @@
 package lab2;
 
-public class Paragraph {
+public class Paragraph implements Element {
 	private String text;
-	private SubChapter subChapter;
 	
 	public Paragraph() {
 		
@@ -16,23 +15,8 @@ public class Paragraph {
 		return text;
 	}
 
-	public void setText(String text) {
-		this.text = text;
-	}
-
-	public SubChapter getSubChapter() {
-		return subChapter;
-	}
-
-	public void setSubChapter(SubChapter subChapter) {
-		this.subChapter = subChapter;
-	}
-
 	public void print() {
-		
+		System.out.println("Paragraph: " + getText());
 	}
 	
-	public String toString() {
-		return text;
-	}
 }

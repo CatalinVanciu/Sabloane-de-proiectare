@@ -1,8 +1,7 @@
 package lab2;
 
-public class Table {
+public class Table implements Element {
 	private String title;
-	private SubChapter subChapter;
 	
 	public Table() {
 		
@@ -11,28 +10,9 @@ public class Table {
 	public Table(String title) {
 		this.title = title;
 	}
-	
-	public String getTitle() {
-		return title;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
-	}
-
-	public SubChapter getSubChapter() {
-		return subChapter;
-	}
-
-	public void setSubChapter(SubChapter subChapter) {
-		this.subChapter = subChapter;
-	}
 
 	public void print() {
-		
+		System.out.println("Title: " + title);
 	}
 	
-	public String toString() {
-		return title;
-	}
 }
