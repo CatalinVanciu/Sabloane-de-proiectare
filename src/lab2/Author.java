@@ -2,6 +2,7 @@ package lab2;
 
 public class Author {
 	private String name;
+	private String surname;
 	private Book book;
 	
 	public Author() {
@@ -13,6 +14,10 @@ public class Author {
 	}
 
 	public void print() {
-		
+		System.out.println("Author: " + getName());
+	}
+	
+	public String getName() {
+		return name;
 	}
 }
