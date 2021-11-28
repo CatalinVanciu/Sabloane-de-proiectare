@@ -1,20 +1,15 @@
-package lab2;
 
-public class Image implements Element {
-	private String url;
+
+public class Table implements Element {
+	private String title;
 	
-	public Image() {
-		
+	public Table(String title) {
+		this.title = title;
 	}
-	
-	public Image(String url) {
-		this.url = url;
-	}
-	
 
 	@Override
 	public void print() {
-		System.out.println("Image: " + url);
+		System.out.println("Table: " + title);
 	}
 
 	@Override

@@ -1,15 +1,11 @@
-package lab2;
 
-public class Table implements Element {
-	private String title;
+
+public class TableOfContents implements Element {
+	private Book book;
 	
-	public Table(String title) {
-		this.title = title;
-	}
-
 	@Override
 	public void print() {
-		System.out.println("Table: " + title);
+		System.out.println("Table of contents: ");
 	}
 
 	@Override
@@ -25,6 +21,6 @@ public class Table implements Element {
 	@Override
 	public Element get(int index) {
 		return null;
+		
 	}
-	
 }

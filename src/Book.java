@@ -1,4 +1,4 @@
-package lab2;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +21,7 @@ public class Book extends Section {
 		super.print();
 	}
 
-	public void addContent(Paragraph paragraph) {
+	public void addContent(Section section) {
 		
 	}
 }

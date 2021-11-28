@@ -1,4 +1,4 @@
-package lab2;
+
 
 public class Paragraph implements Element {
 	private String text;
