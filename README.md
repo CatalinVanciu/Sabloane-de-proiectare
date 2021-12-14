@@ -13,3 +13,7 @@ https://github.com/CatalinVanciu/Sabloane-de-proiectare/tree/77c7560f83e485a348b
 
 all good
 
+# Feedback lab4:
+https://github.com/CatalinVanciu/Sabloane-de-proiectare/tree/69e2b40364466c22eeffd5a01c1374a81a490e94
+
+all good
