@@ -14,7 +14,7 @@ public class Section implements Element {
 	@Override
 	public void print() {
 		System.out.println(getTitle());
-		elements.stream().forEach(e -> e.print());
+		elements.stream().forEach(e -> e.render());
 	}
 
 	@Override
@@ -35,6 +35,12 @@ public class Section implements Element {
 	
 	public String getTitle() {
 		return title;
+	}
+
+	@Override
+	public void render() {
+		System.out.println("Section: " + getTitle());
+		
 	}
 	
 	

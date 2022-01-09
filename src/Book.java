@@ -21,6 +21,13 @@ public class Book extends Section {
 		super.print();
 	}
 
+	@Override
+	public void render() {
+		System.out.println(String.format("Book: %s\nAuthors: ", super.getTitle()));
+		
+		authors.stream().forEach(e -> e.print());
+	}
+	
 	public void addContent(Section section) {
 		
 	}

@@ -55,7 +55,13 @@ public class ImageProxy implements Picture, Element {
 
 	@Override
 	public PictureContent content() {
-		// TODO Auto-generated method stub
-		return null;
+		return realImg != null ? realImg.content() : null;
+	}
+
+	@Override
+	public void render() {
+		loadImage();
+		realImg.render();
+		
 	}
 }

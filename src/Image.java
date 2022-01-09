@@ -11,6 +11,7 @@ public class Image implements Picture, Element {
 	
 	public Image(String url) {
 		this.url = url;
+		content = new ImageContent(url);
 	}
 	
 
@@ -46,8 +47,13 @@ public class Image implements Picture, Element {
 
 	@Override
 	public PictureContent content() {
-		// TODO Auto-generated method stub
-		return null;
+		return content;
+	}
+
+	@Override
+	public void render() {
+		System.out.println("Image: " + url);
+		
 	}
 	
 }

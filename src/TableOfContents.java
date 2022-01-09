@@ -23,4 +23,10 @@ public class TableOfContents implements Element {
 		return null;
 		
 	}
+
+	@Override
+	public void render() {
+		// TODO Auto-generated method stub
+		
+	}
 }
