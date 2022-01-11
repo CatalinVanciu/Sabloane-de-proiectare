@@ -17,3 +17,10 @@ all good
 https://github.com/CatalinVanciu/Sabloane-de-proiectare/tree/69e2b40364466c22eeffd5a01c1374a81a490e94
 
 all good
+
+# Feedback lab5:
+https://github.com/CatalinVanciu/Sabloane-de-proiectare/tree/3775a37dfc4cab2b31f0f476904897668af1d230
+
+missing visitor
+
+# Proposed grade: 9
